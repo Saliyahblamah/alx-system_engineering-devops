@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -Ap1 --group-directories-first | sed ':a;N;$!ba;s/\n/, /g; s/\([^\/]\)$/&, /' | tr -d '\n'
+ls -map
